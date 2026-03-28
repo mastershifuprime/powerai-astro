@@ -3,7 +3,7 @@
  * Centralized animation variants and settings for the entire application
  */
 
-import { Transition, Variants } from "motion/react";
+import type { Transition, Variants } from "motion/react";
 
 // ============================================
 // TRANSITION CONFIGURATIONS

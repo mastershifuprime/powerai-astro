@@ -1,6 +1,6 @@
 
 import { motion } from "motion/react";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { staggerItemVariants } from "@/lib/animations";
 
 interface StaggerItemProps {
