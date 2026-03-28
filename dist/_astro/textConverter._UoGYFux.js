@@ -1,0 +1,1 @@
+import{g as e}from"./marked.esm.BPdRUrA1.js";const p=(t,r)=>({__html:r?e.parse(t):e.parseInline(t)}),c=t=>{const n=e.parse(t).replace(/<\/?[^>]+(>|$)/gm,"").replace(/[\r\n]\s*[\r\n]/gm,"");return o(n)},o=t=>{const r={"&nbsp;":" ","&lt;":"<","&gt;":">","&amp;":"&","&quot;":'"',"&#39;":"'"};return t.replace(/(&amp;|&lt;|&gt;|&quot;|&#39;)/g,n=>r[n])};export{p as m,c as p};

@@ -1,0 +1,1 @@
+import{j as m}from"./jsx-runtime.u17CrQMm.js";import{r as o}from"./index.DrBtkhmp.js";const n=c=>{const{src:r,fallback:s,...e}=c,[a,t]=o.useState(r);return o.useEffect(()=>{t(r)},[r]),m.jsx("img",{...e,src:a,onError:()=>{s&&t(s)}})};export{n as I};
