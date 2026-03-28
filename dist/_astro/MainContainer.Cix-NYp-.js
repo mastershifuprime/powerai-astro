@@ -1,1 +1,0 @@
-import{j as n}from"./jsx-runtime.u17CrQMm.js";import"./index.DrBtkhmp.js";const t=({children:a,class_container:i})=>n.jsx("div",{className:"main-container",children:n.jsx("div",{className:`container ${i}`,children:a})});export{t as M};

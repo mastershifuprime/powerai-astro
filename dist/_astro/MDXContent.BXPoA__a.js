@@ -1,1 +1,0 @@
-import{j as n}from"./jsx-runtime.u17CrQMm.js";import{g as e}from"./marked.esm.BPdRUrA1.js";const m=({content:t})=>{if(!t)return null;const r=e.parse(t);return n.jsx("div",{dangerouslySetInnerHTML:{__html:r}})};export{m as default};
