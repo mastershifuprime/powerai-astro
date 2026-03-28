@@ -7,6 +7,7 @@ import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
 import "@/styles/main.css";
 import { Font } from "astro:assets";
+import { ClientRouter } from "astro:transitions";
 
 // font families
 const fontEntries = Object.entries(theme.fonts.font_family).filter(
@@ -131,13 +132,14 @@ const { title, meta_title, description, image, noindex, canonical } =
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+    <ClientRouter />
   </head>
   <body>
     <TwSizeIndicator />
-    <Header client:load pathname={Astro.url.pathname} />
-    <main id="main-content">
+    <Header client:load pathname={Astro.url.pathname} transition:persist />
+    <main id="main-content" transition:animate="fade">
       <slot />
     </main>
-    <Footer client:load />
+    <Footer client:load transition:persist />
   </body>
 </html>
