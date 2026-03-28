@@ -2,7 +2,7 @@
 import Badge from "@/components/Badge";
 import MainContainer from "@/components/MainContainer";
 import ImageFallback from "@/helpers/ImageFallback";
-import { GalleryType } from "@/types/index";
+import type { GalleryType } from "@/types/index";
 import { motion } from "motion/react";
 import {
   sectionHeaderVariants,

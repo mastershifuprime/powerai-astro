@@ -2,7 +2,7 @@
 import AnimatedButton from "@/components/AnimatedButton";
 import MainContainer from "@/components/MainContainer";
 import CTAShape from "@/components/shape/CTAShape";
-import { Call_to_action } from "@/types/index";
+import type { Call_to_action } from "@/types/index";
 import { motion } from "motion/react";
 import { fadeInUpVariants } from "@/lib/animations";
 

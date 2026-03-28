@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 import SectionHeader from "@/layouts/components/SectionHeader";
 import CareerCard from "@/layouts/components/CareerCard";
 import MainContainer from "@/components/MainContainer";
-import { Career } from "@/types/index";
+import type { Career } from "@/types/index";
 import { AnimatePresence, motion } from "motion/react";
 
 type OpenPositionsProps = {

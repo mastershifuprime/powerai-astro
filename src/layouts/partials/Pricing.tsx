@@ -1,7 +1,7 @@
 import MainContainer from "@/components/MainContainer";
 import PricingCard from "@/components/PricingCard";
 import SectionHeader from "@/components/SectionHeader";
-import { PricingType } from "@/types/index";
+import type { PricingType } from "@/types/index";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import {

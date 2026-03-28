@@ -1,5 +1,5 @@
 
-import { Career } from "@/types/index";
+import type { Career } from "@/types/index";
 import { motion } from "motion/react";
 
 const CareerCard = ({

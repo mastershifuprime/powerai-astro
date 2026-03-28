@@ -1,5 +1,5 @@
 
-import { Post } from "@/types/index";
+import type { Post } from "@/types/index";
 import ImageFallback from "@/helpers/ImageFallback";
 import dateFormat from "@/lib/utils/dateFormat";
 import { motion } from "motion/react";

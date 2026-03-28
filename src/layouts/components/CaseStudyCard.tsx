@@ -1,5 +1,5 @@
 
-import { CaseStudy } from "@/types/index";
+import type { CaseStudy } from "@/types/index";
 import ImageFallback from "@/helpers/ImageFallback";
 import { motion } from "motion/react";
 import { cardVariants } from "@/lib/animations";

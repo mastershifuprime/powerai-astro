@@ -1,6 +1,6 @@
 import MainContainer from "@/components/MainContainer";
 import ImageFallback from "@/helpers/ImageFallback";
-import { TrustedClientType } from "@/types/index";
+import type { TrustedClientType } from "@/types/index";
 import { motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 

@@ -4,7 +4,7 @@ import Badge from "@/components/Badge";
 import MainContainer from "@/components/MainContainer";
 import CTAShape from "@/components/shape/CTAShape";
 import { markdownify } from "@/lib/utils/textConverter";
-import { Button } from "@/types/index";
+import type { Button } from "@/types/index";
 import { motion } from "motion/react";
 import { fadeInUpVariants } from "@/lib/animations";
 

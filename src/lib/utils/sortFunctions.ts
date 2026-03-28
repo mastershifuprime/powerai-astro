@@ -1,4 +1,4 @@
-import { Post, CaseStudy } from "@/types/index";
+import type { Post, CaseStudy } from "@/types/index";
 
 // sort by date
 export const sortByDate = <T extends Post | CaseStudy>(array: T[]): T[] => {

@@ -5,7 +5,7 @@ import MDXContent from "@/helpers/MDXContent";
 import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser";
 
-const { career_folder } = config.settings;
+const { career_folder: _career_folder } = config.settings;
 const { apply_form_action } = config.params;
 
 export async function getStaticPaths() {

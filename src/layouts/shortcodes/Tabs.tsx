@@ -1,5 +1,6 @@
 
-import React, { KeyboardEvent, ReactElement, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
+import type { KeyboardEvent, ReactElement } from "react";
 
 // Define an interface for the Tab props
 interface TabProps {

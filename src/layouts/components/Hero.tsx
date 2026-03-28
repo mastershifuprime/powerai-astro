@@ -1,5 +1,5 @@
 
-import { Button } from "@/types/index";
+import type { Button } from "@/types/index";
 import MainContainer from "./MainContainer";
 import ImageFallback from "@/helpers/ImageFallback";
 import { markdownify } from "@/lib/utils/textConverter";

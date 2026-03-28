@@ -2,7 +2,7 @@ import AnimatedButton from "@/components/AnimatedButton";
 import MainContainer from "@/components/MainContainer";
 import SectionHeader from "@/components/SectionHeader";
 import ImageFallback from "@/helpers/ImageFallback";
-import { Button } from "@/types/index";
+import type { Button } from "@/types/index";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { sectionHeaderVariants } from "@/lib/animations";

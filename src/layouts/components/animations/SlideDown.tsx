@@ -1,5 +1,6 @@
 
-import { motion, useInView, UseInViewOptions } from "motion/react";
+import { motion, useInView } from "motion/react";
+import type { UseInViewOptions } from "motion/react";
 import type { ReactNode } from "react";
 import { useRef } from "react";
 import { fadeInDownVariants } from "@/lib/animations";

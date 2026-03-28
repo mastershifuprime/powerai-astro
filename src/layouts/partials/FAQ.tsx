@@ -3,7 +3,7 @@ import Accordion from "@/components/Accordion";
 import Badge from "@/components/Badge";
 import MainContainer from "@/components/MainContainer";
 import { markdownify } from "@/lib/utils/textConverter";
-import { Button as ButtonType, FAQType } from "@/types/index";
+import type { Button as ButtonType, FAQType } from "@/types/index";
 import { useState } from "react";
 
 interface PageData {

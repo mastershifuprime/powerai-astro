@@ -1,5 +1,5 @@
 
-import { PricingType } from "@/types/index";
+import type { PricingType } from "@/types/index";
 import { motion } from "motion/react";
 import { cardVariants } from "@/lib/animations";
 

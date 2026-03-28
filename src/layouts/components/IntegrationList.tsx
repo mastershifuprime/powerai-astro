@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import MainContainer from "./MainContainer";
-import { IntegrationType } from "@/types/index";
+import type { IntegrationType } from "@/types/index";
 import ImageFallback from "@/helpers/ImageFallback";
 
 const IntegrationList = ({
